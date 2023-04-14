@@ -1,0 +1,55 @@
+create table student_lesson (
+	student_id int NOT NULL REFERENCES student,
+	lesson_id int NOT NULL REFERENCES lesson
+);
+
+insert into student_lesson (student_id, lesson_id) values (24, 45);
+insert into student_lesson (student_id, lesson_id) values (35, 17);
+insert into student_lesson (student_id, lesson_id) values (4, 13);
+insert into student_lesson (student_id, lesson_id) values (25, 30);
+insert into student_lesson (student_id, lesson_id) values (45, 5);
+insert into student_lesson (student_id, lesson_id) values (14, 19);
+insert into student_lesson (student_id, lesson_id) values (6, 40);
+insert into student_lesson (student_id, lesson_id) values (7, 20);
+insert into student_lesson (student_id, lesson_id) values (19, 20);
+insert into student_lesson (student_id, lesson_id) values (23, 44);
+insert into student_lesson (student_id, lesson_id) values (39, 8);
+insert into student_lesson (student_id, lesson_id) values (3, 31);
+insert into student_lesson (student_id, lesson_id) values (50, 26);
+insert into student_lesson (student_id, lesson_id) values (21, 47);
+insert into student_lesson (student_id, lesson_id) values (43, 36);
+insert into student_lesson (student_id, lesson_id) values (13, 1);
+insert into student_lesson (student_id, lesson_id) values (23, 39);
+insert into student_lesson (student_id, lesson_id) values (19, 39);
+insert into student_lesson (student_id, lesson_id) values (21, 34);
+insert into student_lesson (student_id, lesson_id) values (50, 14);
+insert into student_lesson (student_id, lesson_id) values (9, 49);
+insert into student_lesson (student_id, lesson_id) values (43, 20);
+insert into student_lesson (student_id, lesson_id) values (4, 10);
+insert into student_lesson (student_id, lesson_id) values (11, 15);
+insert into student_lesson (student_id, lesson_id) values (46, 14);
+insert into student_lesson (student_id, lesson_id) values (43, 3);
+insert into student_lesson (student_id, lesson_id) values (8, 10);
+insert into student_lesson (student_id, lesson_id) values (37, 11);
+insert into student_lesson (student_id, lesson_id) values (10, 25);
+insert into student_lesson (student_id, lesson_id) values (32, 14);
+insert into student_lesson (student_id, lesson_id) values (49, 42);
+insert into student_lesson (student_id, lesson_id) values (42, 45);
+insert into student_lesson (student_id, lesson_id) values (17, 33);
+insert into student_lesson (student_id, lesson_id) values (12, 15);
+insert into student_lesson (student_id, lesson_id) values (41, 1);
+insert into student_lesson (student_id, lesson_id) values (39, 17);
+insert into student_lesson (student_id, lesson_id) values (30, 8);
+insert into student_lesson (student_id, lesson_id) values (22, 43);
+insert into student_lesson (student_id, lesson_id) values (29, 50);
+insert into student_lesson (student_id, lesson_id) values (38, 2);
+insert into student_lesson (student_id, lesson_id) values (38, 14);
+insert into student_lesson (student_id, lesson_id) values (35, 23);
+insert into student_lesson (student_id, lesson_id) values (7, 38);
+insert into student_lesson (student_id, lesson_id) values (12, 46);
+insert into student_lesson (student_id, lesson_id) values (23, 16);
+insert into student_lesson (student_id, lesson_id) values (31, 34);
+insert into student_lesson (student_id, lesson_id) values (12, 32);
+insert into student_lesson (student_id, lesson_id) values (42, 3);
+insert into student_lesson (student_id, lesson_id) values (18, 43);
+insert into student_lesson (student_id, lesson_id) values (23, 6);

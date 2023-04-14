@@ -1,0 +1,51 @@
+create table email (
+	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+	email VARCHAR(50)
+);
+
+insert into email (id, email) values (1, 'tkoeppe0@psu.edu');
+insert into email (id, email) values (2, 'fgowthrop1@businesswire.com');
+insert into email (id, email) values (3, 'dfolger2@twitter.com');
+insert into email (id, email) values (4, 'cfernley3@linkedin.com');
+insert into email (id, email) values (5, 'dblount4@sogou.com');
+insert into email (id, email) values (6, 'osterman5@freewebs.com');
+insert into email (id, email) values (7, 'creinard6@addthis.com');
+insert into email (id, email) values (8, 'crosenthaler7@cbc.ca');
+insert into email (id, email) values (9, 'fsillis8@oracle.com');
+insert into email (id, email) values (10, 'ajoye9@slate.com');
+insert into email (id, email) values (11, 'ldundredgea@sciencedirect.com');
+insert into email (id, email) values (12, 'thealeasb@discovery.com');
+insert into email (id, email) values (13, 'dharversonc@vistaprint.com');
+insert into email (id, email) values (14, 'lparkesond@blinklist.com');
+insert into email (id, email) values (15, 'mbeatheme@topsy.com');
+insert into email (id, email) values (16, 'fwallmanf@businesswire.com');
+insert into email (id, email) values (17, 'schokeg@zimbio.com');
+insert into email (id, email) values (18, 'jpratonh@biglobe.ne.jp');
+insert into email (id, email) values (19, 'wmarcui@icq.com');
+insert into email (id, email) values (20, 'obeynonj@themeforest.net');
+insert into email (id, email) values (21, 'phehirk@soup.io');
+insert into email (id, email) values (22, 'sfranklinl@skyrock.com');
+insert into email (id, email) values (23, 'ybeevorsm@cargocollective.com');
+insert into email (id, email) values (24, 'tvliesn@a8.net');
+insert into email (id, email) values (25, 'twittmano@google.cn');
+insert into email (id, email) values (26, 'mjanuszp@posterous.com');
+insert into email (id, email) values (27, 'maskhamq@imdb.com');
+insert into email (id, email) values (28, 'rmoehlerr@accuweather.com');
+insert into email (id, email) values (29, 'thuletts@altervista.org');
+insert into email (id, email) values (30, 'ileatont@unicef.org');
+insert into email (id, email) values (31, 'sgeweru@goo.ne.jp');
+insert into email (id, email) values (32, 'cnayshev@hexun.com');
+insert into email (id, email) values (33, 'mpuckettw@shareasale.com');
+insert into email (id, email) values (34, 'dbodycotex@zimbio.com');
+insert into email (id, email) values (35, 'hmcneay@illinois.edu');
+insert into email (id, email) values (36, 'jbabinskiz@goodreads.com');
+insert into email (id, email) values (37, 'fmcbayne10@sourceforge.net');
+insert into email (id, email) values (38, 'nsanper11@unesco.org');
+insert into email (id, email) values (39, 'awileman12@clickbank.net');
+insert into email (id, email) values (40, 'dsanford13@usda.gov');
+insert into email (id, email) values (41, 'jcheves14@usa.gov');
+insert into email (id, email) values (42, 'vbrigg15@wix.com');
+insert into email (id, email) values (43, 'rdaventry16@mapquest.com');
+insert into email (id, email) values (44, 'faudus17@technorati.com');
+insert into email (id, email) values (45, 'bterrans18@php.net');
+insert into email (id, email) values (46, 'shedin19@ftc.gov');

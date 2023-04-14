@@ -1,0 +1,55 @@
+create table instrument_type_teaches (
+	instructor_id int NOT NULL REFERENCES instructor,
+	instrument_teaches_type int
+);
+
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (1, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (2, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (3, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (4, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (5, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (6, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (7, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (8, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (9, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (10, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (11, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (12, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (13, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (14, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (15, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (16, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (17, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (18, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (19, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (20, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (21, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (22, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (23, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (24, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (25, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (26, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (27, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (28, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (29, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (30, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (31, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (32, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (33, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (34, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (35, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (36, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (37, 1);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (38, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (39, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (40, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (41, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (42, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (43, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (44, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (45, 3);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (46, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (47, 4);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (48, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (49, 2);
+insert into instrument_type_teaches (instructor_id, instrument_teaches_type) values (50, 4);

@@ -1,0 +1,56 @@
+create table contact_person (
+	id int GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+	relation_type VARCHAR(7),
+	person_id INT NOT NULL REFERENCES person
+);
+
+insert into contact_person (id, relation_type, person_id) values (1, 'cousin', 11);
+insert into contact_person (id, relation_type, person_id) values (2, 'parent', 39);
+insert into contact_person (id, relation_type, person_id) values (3, 'cousin', 48);
+insert into contact_person (id, relation_type, person_id) values (4, 'sister', 22);
+insert into contact_person (id, relation_type, person_id) values (5, 'parent', 35);
+insert into contact_person (id, relation_type, person_id) values (6, 'cousin', 30);
+insert into contact_person (id, relation_type, person_id) values (7, 'parent', 20);
+insert into contact_person (id, relation_type, person_id) values (8, 'sister', 1);
+insert into contact_person (id, relation_type, person_id) values (9, 'brother', 12);
+insert into contact_person (id, relation_type, person_id) values (10, 'cousin', 10);
+insert into contact_person (id, relation_type, person_id) values (11, 'sister', 38);
+insert into contact_person (id, relation_type, person_id) values (12, 'parent', 45);
+insert into contact_person (id, relation_type, person_id) values (13, 'sister', 47);
+insert into contact_person (id, relation_type, person_id) values (14, 'sister', 15);
+insert into contact_person (id, relation_type, person_id) values (15, 'sister', 42);
+insert into contact_person (id, relation_type, person_id) values (16, 'parent', 5);
+insert into contact_person (id, relation_type, person_id) values (17, 'parent', 19);
+insert into contact_person (id, relation_type, person_id) values (18, 'brother', 40);
+insert into contact_person (id, relation_type, person_id) values (19, 'cousin', 39);
+insert into contact_person (id, relation_type, person_id) values (20, 'sister', 1);
+insert into contact_person (id, relation_type, person_id) values (21, 'parent', 40);
+insert into contact_person (id, relation_type, person_id) values (22, 'parent', 46);
+insert into contact_person (id, relation_type, person_id) values (23, 'parent', 9);
+insert into contact_person (id, relation_type, person_id) values (24, 'parent', 39);
+insert into contact_person (id, relation_type, person_id) values (25, 'parent', 3);
+insert into contact_person (id, relation_type, person_id) values (26, 'cousin', 26);
+insert into contact_person (id, relation_type, person_id) values (27, 'parent', 31);
+insert into contact_person (id, relation_type, person_id) values (28, 'parent', 45);
+insert into contact_person (id, relation_type, person_id) values (29, 'cousin', 32);
+insert into contact_person (id, relation_type, person_id) values (30, 'cousin', 20);
+insert into contact_person (id, relation_type, person_id) values (31, 'parent', 43);
+insert into contact_person (id, relation_type, person_id) values (32, 'sister', 4);
+insert into contact_person (id, relation_type, person_id) values (33, 'cousin', 15);
+insert into contact_person (id, relation_type, person_id) values (34, 'cousin', 14);
+insert into contact_person (id, relation_type, person_id) values (35, 'parent', 18);
+insert into contact_person (id, relation_type, person_id) values (36, 'cousin', 9);
+insert into contact_person (id, relation_type, person_id) values (37, 'sister', 26);
+insert into contact_person (id, relation_type, person_id) values (38, 'parent', 31);
+insert into contact_person (id, relation_type, person_id) values (39, 'brother', 8);
+insert into contact_person (id, relation_type, person_id) values (40, 'parent', 42);
+insert into contact_person (id, relation_type, person_id) values (41, 'cousin', 4);
+insert into contact_person (id, relation_type, person_id) values (42, 'brother', 10);
+insert into contact_person (id, relation_type, person_id) values (43, 'parent', 18);
+insert into contact_person (id, relation_type, person_id) values (44, 'parent', 4);
+insert into contact_person (id, relation_type, person_id) values (45, 'parent', 27);
+insert into contact_person (id, relation_type, person_id) values (46, 'parent', 47);
+insert into contact_person (id, relation_type, person_id) values (47, 'brother', 16);
+insert into contact_person (id, relation_type, person_id) values (48, 'parent', 28);
+insert into contact_person (id, relation_type, person_id) values (49, 'cousin', 4);
+insert into contact_person (id, relation_type, person_id) values (50, 'parent', 42);

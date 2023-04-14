@@ -1,0 +1,55 @@
+create table person_phone (
+	person_id int NOT NULL REFERENCES person,
+	phone_id INT NOT NULL REFERENCES phone
+);
+
+insert into person_phone (person_id, phone_id) values (29, 34);
+insert into person_phone (person_id, phone_id) values (21, 26);
+insert into person_phone (person_id, phone_id) values (44, 22);
+insert into person_phone (person_id, phone_id) values (35, 33);
+insert into person_phone (person_id, phone_id) values (26, 45);
+insert into person_phone (person_id, phone_id) values (44, 10);
+insert into person_phone (person_id, phone_id) values (42, 48);
+insert into person_phone (person_id, phone_id) values (26, 7);
+insert into person_phone (person_id, phone_id) values (7, 30);
+insert into person_phone (person_id, phone_id) values (38, 14);
+insert into person_phone (person_id, phone_id) values (36, 40);
+insert into person_phone (person_id, phone_id) values (2, 17);
+insert into person_phone (person_id, phone_id) values (33, 18);
+insert into person_phone (person_id, phone_id) values (32, 35);
+insert into person_phone (person_id, phone_id) values (31, 33);
+insert into person_phone (person_id, phone_id) values (12, 48);
+insert into person_phone (person_id, phone_id) values (5, 45);
+insert into person_phone (person_id, phone_id) values (36, 37);
+insert into person_phone (person_id, phone_id) values (36, 47);
+insert into person_phone (person_id, phone_id) values (3, 16);
+insert into person_phone (person_id, phone_id) values (21, 41);
+insert into person_phone (person_id, phone_id) values (6, 14);
+insert into person_phone (person_id, phone_id) values (11, 40);
+insert into person_phone (person_id, phone_id) values (10, 24);
+insert into person_phone (person_id, phone_id) values (6, 35);
+insert into person_phone (person_id, phone_id) values (2, 32);
+insert into person_phone (person_id, phone_id) values (35, 24);
+insert into person_phone (person_id, phone_id) values (17, 45);
+insert into person_phone (person_id, phone_id) values (7, 32);
+insert into person_phone (person_id, phone_id) values (25, 30);
+insert into person_phone (person_id, phone_id) values (31, 47);
+insert into person_phone (person_id, phone_id) values (31, 7);
+insert into person_phone (person_id, phone_id) values (15, 11);
+insert into person_phone (person_id, phone_id) values (22, 5);
+insert into person_phone (person_id, phone_id) values (18, 25);
+insert into person_phone (person_id, phone_id) values (44, 2);
+insert into person_phone (person_id, phone_id) values (15, 48);
+insert into person_phone (person_id, phone_id) values (34, 44);
+insert into person_phone (person_id, phone_id) values (15, 20);
+insert into person_phone (person_id, phone_id) values (27, 13);
+insert into person_phone (person_id, phone_id) values (47, 5);
+insert into person_phone (person_id, phone_id) values (46, 18);
+insert into person_phone (person_id, phone_id) values (34, 35);
+insert into person_phone (person_id, phone_id) values (2, 41);
+insert into person_phone (person_id, phone_id) values (28, 7);
+insert into person_phone (person_id, phone_id) values (21, 5);
+insert into person_phone (person_id, phone_id) values (1, 17);
+insert into person_phone (person_id, phone_id) values (29, 14);
+insert into person_phone (person_id, phone_id) values (39, 25);
+insert into person_phone (person_id, phone_id) values (18, 19);

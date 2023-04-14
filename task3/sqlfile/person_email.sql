@@ -1,0 +1,55 @@
+create table person_email (
+	person_id int NOT NULL REFERENCES person,
+	email_id int NOT NULL REFERENCES email
+);
+
+insert into person_email (person_id, email_id) values (19, 48);
+insert into person_email (person_id, email_id) values (24, 7);
+insert into person_email (person_id, email_id) values (1, 18);
+insert into person_email (person_id, email_id) values (22, 46);
+insert into person_email (person_id, email_id) values (4, 38);
+insert into person_email (person_id, email_id) values (17, 47);
+insert into person_email (person_id, email_id) values (16, 10);
+insert into person_email (person_id, email_id) values (38, 15);
+insert into person_email (person_id, email_id) values (15, 14);
+insert into person_email (person_id, email_id) values (2, 38);
+insert into person_email (person_id, email_id) values (21, 21);
+insert into person_email (person_id, email_id) values (2, 29);
+insert into person_email (person_id, email_id) values (33, 32);
+insert into person_email (person_id, email_id) values (9, 43);
+insert into person_email (person_id, email_id) values (37, 27);
+insert into person_email (person_id, email_id) values (21, 43);
+insert into person_email (person_id, email_id) values (16, 47);
+insert into person_email (person_id, email_id) values (28, 30);
+insert into person_email (person_id, email_id) values (39, 40);
+insert into person_email (person_id, email_id) values (14, 7);
+insert into person_email (person_id, email_id) values (43, 39);
+insert into person_email (person_id, email_id) values (14, 18);
+insert into person_email (person_id, email_id) values (34, 26);
+insert into person_email (person_id, email_id) values (12, 28);
+insert into person_email (person_id, email_id) values (24, 47);
+insert into person_email (person_id, email_id) values (36, 20);
+insert into person_email (person_id, email_id) values (25, 44);
+insert into person_email (person_id, email_id) values (12, 48);
+insert into person_email (person_id, email_id) values (41, 31);
+insert into person_email (person_id, email_id) values (35, 11);
+insert into person_email (person_id, email_id) values (8, 32);
+insert into person_email (person_id, email_id) values (45, 4);
+insert into person_email (person_id, email_id) values (2, 15);
+insert into person_email (person_id, email_id) values (38, 16);
+insert into person_email (person_id, email_id) values (49, 36);
+insert into person_email (person_id, email_id) values (44, 16);
+insert into person_email (person_id, email_id) values (45, 13);
+insert into person_email (person_id, email_id) values (41, 38);
+insert into person_email (person_id, email_id) values (26, 5);
+insert into person_email (person_id, email_id) values (29, 18);
+insert into person_email (person_id, email_id) values (43, 27);
+insert into person_email (person_id, email_id) values (35, 29);
+insert into person_email (person_id, email_id) values (44, 24);
+insert into person_email (person_id, email_id) values (31, 36);
+insert into person_email (person_id, email_id) values (12, 38);
+insert into person_email (person_id, email_id) values (29, 23);
+insert into person_email (person_id, email_id) values (39, 27);
+insert into person_email (person_id, email_id) values (43, 35);
+insert into person_email (person_id, email_id) values (15, 32);
+insert into person_email (person_id, email_id) values (37, 35);
